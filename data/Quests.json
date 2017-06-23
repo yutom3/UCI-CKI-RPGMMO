@@ -1,0 +1,1 @@
+[["Tutorial"],{"id":1,"icon":290,"cat":0,"name":"Learning to Move","desc":"Learning to move must be very hard.","steps":[["Collect all 5 cats.",true,1,5,false],["Talk to Mrs. Buttersworth.",false,1,1,false]],"rewards":[["custom","Kiss from Mrs. Buttersworth",0,false],["item",1,5,false],["gold",100,0,false],["xp",100,0,false]]}]

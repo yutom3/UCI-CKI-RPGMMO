@@ -1,0 +1,12 @@
+[
+null,
+{"id":1,"expanded":true,"name":"UCI Map","order":5,"parentId":0,"scrollX":3809.4545454545455,"scrollY":3441.818181818182},
+{"id":2,"expanded":true,"name":"Student Center","order":6,"parentId":1,"scrollX":756.6666666666666,"scrollY":470.3333333333333},
+{"id":3,"expanded":true,"name":"Outer Ring Road - Tabling","order":1,"parentId":0,"scrollX":832,"scrollY":640},
+{"id":4,"expanded":true,"name":"Student Center - Orientation","order":2,"parentId":0,"scrollX":756.6666666666666,"scrollY":470.3333333333333},
+{"id":5,"expanded":true,"name":"Student Center - Induction Night","order":4,"parentId":0,"scrollX":918,"scrollY":624.3333333333334},
+{"id":6,"expanded":false,"name":"Student Center - Anteater Steps","order":3,"parentId":0,"scrollX":756.6666666666666,"scrollY":470.3333333333333},
+{"id":7,"expanded":true,"name":"Flagpoles","order":7,"parentId":1,"scrollX":816,"scrollY":1526},
+{"id":8,"expanded":true,"name":"UCI Arboretum","order":8,"parentId":7,"scrollX":756.6666666666666,"scrollY":466.3333333333333},
+{"id":9,"expanded":false,"name":"UCI Arboretum - 2","order":9,"parentId":8,"scrollX":756.6666666666666,"scrollY":466.3333333333333}
+]
