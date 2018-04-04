@@ -25,7 +25,7 @@ var $plugins =
 {"name":"Online_CloudSave","status":false,"description":"","parameters":{}},
 {"name":"Online_GlobalVars","status":false,"description":"Send switch and variable data to others.\r\n<Online_GlobalVars>","parameters":{"Global Switch Threshold":"100","Global Variable Threshold":"100"}},
 {"name":"Online_Login_Core","status":true,"description":"Login window for Neldersons Online Core\r\n<Online_Login_Core>","parameters":{"Force Login on Startup":"true","socket.io connection":"true","Switch on First Shutdown":"1","Switch on Second Shutdown":"2"}},
-{"name":"Online_Main_Core","status":true,"description":"Connect to a server with Socket.io!\r\n<Online_Main_Core>","parameters":{"Server URL":"http://localhost:8000","First Hash":"aeha8j4h20adn92k10nkav0sjf90sleicazvyi54j39jfqasfjk9"}},
-{"name":"Online_Metrics","status":true,"description":"Very simple netwokred metrics for your game.\n<Online_Metrics>\n\nRequires Oniline Main Core and Server side setup to use.","parameters":{"Anonymous":"true"}},
-{"name":"Online_Network_Players","status":true,"description":"Network Players for Neldersons Online Core\n<Online_Network_Players>","parameters":{"Net Player Map ID":"1","Net Player Event ID":"1"}}
+{"name":"Online_Main_Core","status":true,"description":"Connect to a server with Socket.io!\r\n<Online_Main_Core>","parameters":{"Server URL":"http://72.211.197.55:8001","First Hash":"d28cb767c4272d8ab91000283c67747cb2ef7cd1"}},
+{"name":"Online_Metrics","status":true,"description":"Very simple netwokred metrics for your game.\r\n<Online_Metrics>\r\n\r\nRequires Oniline Main Core and Server side setup to use.","parameters":{"Anonymous":"true"}},
+{"name":"Online_Network_Players","status":true,"description":"Network Players for Neldersons Online Core\r\n<Online_Network_Players>","parameters":{"Net Player Map ID":"10","Net Player Event ID":"1","Show Username or Character Name":"0","Show Name Above Players Head":"true","Player Text Options":"1","Net Player Text Options":"1"}}
 ];

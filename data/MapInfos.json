@@ -8,5 +8,6 @@ null,
 {"id":6,"expanded":false,"name":"Student Center - Anteater Steps","order":3,"parentId":0,"scrollX":759.3333333333334,"scrollY":470.3333333333333},
 {"id":7,"expanded":true,"name":"Flagpoles","order":7,"parentId":1,"scrollX":830,"scrollY":465},
 {"id":8,"expanded":true,"name":"UCI Arboretum","order":8,"parentId":7,"scrollX":759.3333333333334,"scrollY":470.3333333333333},
-{"id":9,"expanded":false,"name":"UCI Arboretum - 2","order":9,"parentId":8,"scrollX":759.3333333333334,"scrollY":470.3333333333333}
+{"id":9,"expanded":false,"name":"UCI Arboretum - 2","order":9,"parentId":8,"scrollX":759.3333333333334,"scrollY":470.3333333333333},
+{"id":10,"expanded":false,"name":"MAP010","order":10,"parentId":0,"scrollX":0,"scrollY":0}
 ]
