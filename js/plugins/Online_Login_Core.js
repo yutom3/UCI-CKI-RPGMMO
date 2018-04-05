@@ -355,8 +355,7 @@ var Nasty = Nasty || {};
               });
 						}
             $gameNetwork.connectSocketsAfterLogin();
-            that.fadeOutAll();
-					  SceneManager.goto(Scene_Map);
+					  SceneManager.goto(Scene_Title);
 						return that.displayInfo("Ok : "+data.msg);
 					}
       });

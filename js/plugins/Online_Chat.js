@@ -252,7 +252,8 @@ Game_Network.prototype.connectSocketsAfterLogin = function(){
      this.txtarea.style.width = textWinWidth + 'px';
      this.txtarea.style.height = textWinHeight + 'px';
      this.txtarea.style.zIndex = 99;
-     this.txtarea.style.visibility = 'hidden';
+     this.txtarea.style.visibility = 'visible';
+     this.txtarea.style.overflowY = 'hidden';
      if (textWinBackPic===''){
        this.txtarea.style.background = textWinBack;
      }else{
@@ -268,10 +269,10 @@ Game_Network.prototype.connectSocketsAfterLogin = function(){
      Graphics._centerElement(this.txtarea);
      this.chatinput.style.width = inputWinWidth +'px';
      this.chatinput.style.height = inputWinHeight + 'px';
-     this.chatinput.style.top = inputWinOffsetY +'px';
-     this.chatinput.style.left = inputWinOffsetX +'px';
-     this.txtarea.style.left = textWinOffsetX + 'px';
-     this.txtarea.style.top = textWinOffsetY + 'px';
+     this.chatinput.style.top = inputWinOffsetY +'%';
+     this.chatinput.style.left = inputWinOffsetX +'%';
+     this.txtarea.style.left = textWinOffsetX + '%';
+     this.txtarea.style.top = textWinOffsetY + '%';
 
      var that = this;
      $("#chatInput").keypress(function(e){
@@ -306,10 +307,11 @@ Game_Network.prototype.connectSocketsAfterLogin = function(){
      if (document.activeElement===document.getElementById('chatInput')){
        if (Input.isTriggered('ok')){
          this.sendChatMessage();
+         this.toggleChat();
        }
      }
-     //Toggle Chat Windows On/Off
-     if (Input.isTriggered('chat')){
+     //Toggle Chat Windows On/off
+     if (Input.isTriggered('chat') && document.getElementById('chatInput').style.visibility == 'hidden'){
        this.toggleChat();
      }
    };
@@ -329,17 +331,19 @@ Game_Network.prototype.connectSocketsAfterLogin = function(){
 
    Scene_Map.prototype.toggleChat = function(){
      if (!Nasty.chatEnabled) {
-      document.getElementById('txtarea').style.visibility = 'hidden';
+      //document.getElementById('txtarea').style.visibility = 'hidden';
       document.getElementById('chatInput').style.visibility = 'hidden';
       return;
      }
-     if (document.getElementById('txtarea').style.visibility ==='hidden'){
-       document.getElementById('txtarea').style.visibility = 'visible';
+     if (document.getElementById('chatInput').style.visibility ==='hidden'){
+       //document.getElementById('txtarea').style.visibility = 'visible';
        document.getElementById('chatInput').style.visibility = 'visible';
        $("#chatInput").focus();
+       Input.keyMapper['32'] = 'none'; // SpaceBar
      }else{
-       document.getElementById('txtarea').style.visibility = 'hidden';
+       //document.getElementById('txtarea').style.visibility = 'hidden';
        document.getElementById('chatInput').style.visibility = 'hidden';
+       Input.keyMapper['32'] = 'ok'; // SpaceBar
      }
    };
 
@@ -385,5 +389,5 @@ Game_Network.prototype.connectSocketsAfterLogin = function(){
   //Re-Map Input Keys
   Input.keyMapper[chatKeyCode] = 'chat';
   Input.keyMapper['90'] = 'none'; // Z
-  Input.keyMapper['32'] = 'none'; // SpaceBar
+  //Input.keyMapper['32'] = 'none'; // SpaceBar
 })();

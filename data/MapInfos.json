@@ -2,7 +2,7 @@
 null,
 {"id":1,"expanded":true,"name":"UCI Map","order":5,"parentId":0,"scrollX":3703.3333333333335,"scrollY":4921},
 {"id":2,"expanded":true,"name":"Student Center","order":6,"parentId":1,"scrollX":759.3333333333334,"scrollY":470.3333333333333},
-{"id":3,"expanded":true,"name":"Outer Ring Road - Tabling","order":1,"parentId":0,"scrollX":759.3333333333334,"scrollY":470.3333333333333},
+{"id":3,"expanded":true,"name":"Outer Ring Road - Tabling","order":1,"parentId":0,"scrollX":758,"scrollY":465.6666666666667},
 {"id":4,"expanded":true,"name":"Student Center - Orientation","order":2,"parentId":0,"scrollX":759.3333333333334,"scrollY":470.3333333333333},
 {"id":5,"expanded":true,"name":"Student Center - Induction Night","order":4,"parentId":0,"scrollX":992,"scrollY":465},
 {"id":6,"expanded":false,"name":"Student Center - Anteater Steps","order":3,"parentId":0,"scrollX":759.3333333333334,"scrollY":470.3333333333333},
